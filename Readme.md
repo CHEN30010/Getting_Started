@@ -42,7 +42,7 @@ Authenticate with GitHub using the terminal and your personal access token
 ```
 gh auth login
 ```
-When prompted select GitHub.com (presss Enter), https and the option to paste your token (use the down arrow key to select that); then paste your token.
+When prompted select GitHub.com (press Enter), https and the option to paste your token (use the down arrow key to select that); then paste your token.
 
 The following could be "eventful" with 40+ people making changes at the same time.
 
