@@ -39,7 +39,9 @@ Authenticate with GitHub using the terminal and your personal access token
 gh auth login
 ```
 
-The following could be "eventful" with 40+ people making changes at the same time. You will find the GotHub Copilot assistant in VS Code helpful if you get stuck.  Just tell it what you want to do and it will help, e.g. "Push/commit my code to this public repo: https://github.com/CHEN30010/Team_99_test".
+The following could be "eventful" with 40+ people making changes at the same time.
+
+You will find the GitHub Copilot assistant in VS Code helpful if you get stuck.  Just tell it what you want to do and it will help, e.g. "Push/commit my code to this public repo: https://github.com/CHEN30010/Team_99_test".
 
 All going well, Copilot will run something like these commands:
 
@@ -63,7 +65,7 @@ Make some changes locally and push again
 git push origin main
 ```
 
-Make a branch and then make another change
+Make a branch and then make another change; tell Copilot to do it if you run into problems
 ```
 git switch -c [your branch name] && git status --short --branch
 ```
@@ -73,5 +75,5 @@ Make a pull request to incorporate the change in your branch
 gh pr create --base main --head [your branch name] --title "Your description of change" --body "More info about the change"
 ```
 
-This part you do manually:
-- Merge the change in your browser on GitHub.com
+This part requires your approval and you do manually:
+- Merge the change in your browser on GitHub.com (on the Pull requests tab of the repo)
