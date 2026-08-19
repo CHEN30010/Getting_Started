@@ -1,6 +1,6 @@
 # Getting started
 
-You are going to solve a challenging reaction engineering problem based on  simulations programmed by your team. The following get started guidelines will help you to make progress quickly.
+You are going to solve a challenging and important reaction engineering problem to a high standard based on simulations programmed by your team. The following get started guidelines will help you to make progress quickly.
 
 **Before the first tutorial**
 
@@ -77,3 +77,10 @@ gh pr create --base main --head [your branch name] --title "Your description of 
 
 This part requires your approval and you do manually:
 - Merge the change in your browser on GitHub.com (on the Pull requests tab of the repo)
+
+Make sure you can also access your Team repository; that is where you will be saving, sharing and submitting your team code.
+
+If you run into problems with the above, check with your fellow team members what has worked for them. If you still have problems after that, let Joe know.
+
+You can increase your GitHub Copilot limits by verifying your student status
+[here](https://github.com/settings/education/benefits). In general, you will find it more productive to use Copilot within VS Code, rather than e.g. Google AI in the browser. If/when you exceed your Copilot limits, you can fall back on using Google AI in the browser until your limits reset.
