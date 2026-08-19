@@ -2,7 +2,7 @@
 
 This repo captures and tests the getting-started instructions we give to student teams.
 
-** Before the first tutorial **
+**Before the first tutorial**
 
 Install python:
 
