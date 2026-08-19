@@ -14,5 +14,6 @@ Optional: Read/ scan these intros to Git:
 
 [Branches and merging your work](https://webtuu.com/blog/04/git-basics-branching-merging-push-to-github)
 
+[Generate a personal access token](https://github.com/settings/apps). It's an alternative to a password and will help a lot when pushing and pulling code between local and remote.
 
-
+- give it full "repo" access and also read:org access.
