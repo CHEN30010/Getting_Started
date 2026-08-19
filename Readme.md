@@ -1,1 +1,1 @@
-this repo is for testing the instructions we give to the students.
+this repo is for testing the instructions we give to student teams.
