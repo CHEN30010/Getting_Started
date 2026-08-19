@@ -24,4 +24,20 @@ Optional: Read/ scan these intros to Git:
 
 - give it full "repo" access and also read:org access.
 
-In the first tutorial:
+**In the first tutorial**
+
+Generate some code using a Google search; paste into VS Code. Save and Run.
+
+Open a Terminal window in VS Code and run again.
+
+Authenticate with GitHub using the terminal and your personal access token
+
+Push/commit your code to a public repo
+
+Make some changes and push again
+
+Make a branch and make another change
+
+Make a pull request to incorporate the change in your branch
+
+Merge the change on GitHub.com
