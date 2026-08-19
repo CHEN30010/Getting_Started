@@ -4,17 +4,19 @@ You are going to solve a challenging and important reaction engineering problem 
 
 **Before the first tutorial**
 
+Come to the first tutorial with your computer and all of this section completed.
+
 Install [python](https://www.python.org/downloads/)
 
-- add Python to your PATH and make sure pip is included.
+- add Python to your PATH and make sure pip is included. pip helps to install additional packages easily later.
 
 Install [VS Code](https://code.visualstudio.com/download?_exp_download=fb315fc982)
 
 Sign-up for a [GitHub account](https://github.com/signup?ref_product=github&ref_type=engagement&ref_style=text). It's free and will help your team to collaborate. Use your UCD email address. Verify your email address when prompted.
 
-Install [git](https://github.com/git-guides/install-git). This enables source control / audit trail for your project and syncs with GitHub.
+Install [git](https://github.com/git-guides/install-git). This enables source control / audit trail for your project and syncs with GitHub. Audit trial helps to log who did what and when, a feature that is useful for compliance purposes, e.g. in a GMP context.
 
-Optional: Read/ scan these intros to Git:
+Optional, helpful: Read/ scan these intros to Git:
 
 - [Intro](https://webtuu.com/blog/04/a-laymans-introduction-to-git)
 
@@ -38,10 +40,11 @@ Authenticate with GitHub using the terminal and your personal access token
 ```
 gh auth login
 ```
+When prompted select GitHub.com (presss Enter), https and the option to paste your token (use the down arrow key to select that); then paste your token.
 
 The following could be "eventful" with 40+ people making changes at the same time.
 
-You will find the GitHub Copilot assistant in VS Code helpful if you get stuck.  Just tell it what you want to do and it will help, e.g. "Push/commit my code to this public repo: https://github.com/CHEN30010/Team_99_test".
+You will find the GitHub Copilot assistant in VS Code helpful if you get stuck; it's available in the Chat screen. Tell it what you want to do and it will help, e.g. "Push/commit my code to this public repo: https://github.com/CHEN30010/Team_99_test".
 
 All going well, Copilot will run something like these commands:
 
@@ -60,17 +63,17 @@ All going well, Copilot will run something like these commands:
 	11. git push origin main — Final push to remote
 ```
 
-Make some changes locally and push again
+Make some changes locally in your code (e.g. add or edit a comment) and push again (use the assistant)
 ```
 git push origin main
 ```
 
-Make a branch and then make another change; tell Copilot to do it if you run into problems
+Make a branch and then make another change; use the assistant
 ```
 git switch -c [your branch name] && git status --short --branch
 ```
 
-Make a pull request to incorporate the change in your branch
+Make a pull request to incorporate the change in your branch (use the assistant)
 ```
 gh pr create --base main --head [your branch name] --title "Your description of change" --body "More info about the change"
 ```
