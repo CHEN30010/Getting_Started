@@ -31,13 +31,34 @@ Generate some code using a Google search; paste into VS Code. Save and Run.
 Open a Terminal window in VS Code and run again.
 
 Authenticate with GitHub using the terminal and your personal access token
+```
+gh auth login
+```
 
-Push/commit your code to a public repo
-
+Push/commit your code to a public repo. The key steps are: initializing the repo → staging and committing → authenticating → pulling remote changes → resolving divergent branches → successfully pushing
+```
+	1. git status — Check repository status
+	2. git init — Initialize a new git repository
+	3. git remote add origin https://github.com/CHEN30010/Team_99_test.git — Add remote repository
+	4. git add [your filename] — Stage the file for commit
+	5. git commit -m "Your comment" — Commit with message
+	6. git push -u origin main — Push to remote
+	7. git remote set-url origin https://github.com/CHEN30010/Team_99_test.git — Ensure HTTPS remote URL is set
+	8. git pull origin main — Pull remote changes
+	9. git config pull.rebase false — Configure merge strategy to use merge
+	10. git pull --allow-unrelated-histories origin main — Pull and merge unrelated histories
+	11. git push origin main — Final push to remote
+```
 Make some changes and push again
 
 Make a branch and make another change
+```
+git switch -c [your branch name] && git status --short --branch
+```
 
 Make a pull request to incorporate the change in your branch
+```
+gh pr create --base main --head [your branch name] --title "Your description of change" --body "More info about the change"
+```
 
 Merge the change on GitHub.com
