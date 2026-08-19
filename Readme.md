@@ -28,6 +28,8 @@ Optional: Read/ scan these intros to Git:
 
 **In the first tutorial**
 
+Sign into VS Code using your GitHub account
+
 Generate some code using a Google search; paste it into VS Code. Save under your name [your_name.py] and Run.
 
 Open a Terminal window in VS Code and run again.
@@ -37,7 +39,10 @@ Authenticate with GitHub using the terminal and your personal access token
 gh auth login
 ```
 
-Push/commit your code to a public repo.
+The following could be "eventful" with 40+ people making changes at the same time. You will find the GotHub Copilot assistant in VS Code helpful if you get stuck.  Just tell it what you want to do and it will help, e.g. "Push/commit my code to this public repo: https://github.com/CHEN30010/Team_99_test".
+
+All going well, Copilot will run something like these commands:
+
 - The key steps are: initializing the repo → staging and committing → authenticating → pulling remote changes → resolving divergent branches → successfully pushing
 ```
 	1. git status — Check repository status
@@ -52,6 +57,7 @@ Push/commit your code to a public repo.
 	10. git pull --allow-unrelated-histories origin main — Pull and merge unrelated histories
 	11. git push origin main — Final push to remote
 ```
+
 Make some changes locally and push again
 ```
 git push origin main
@@ -67,4 +73,5 @@ Make a pull request to incorporate the change in your branch
 gh pr create --base main --head [your branch name] --title "Your description of change" --body "More info about the change"
 ```
 
-Merge the change in your browser on GitHub.com
+This part you do manually:
+- Merge the change in your browser on GitHub.com
