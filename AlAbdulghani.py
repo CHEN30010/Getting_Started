@@ -1,2 +1,2 @@
-for number in range(1, 11):
+for number in range(0, 11):
     print(number)
