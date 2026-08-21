@@ -28,7 +28,7 @@ Optional, helpful: Read/ scan these intros to Git:
 
 [Generate a GitHub personal access token](https://github.com/settings/apps). It's an alternative to a password and will help a lot when pushing and pulling code between local and remote.
 
-- give it full "repo" access and also read:org access.
+- use the classic type and give it full "repo" access and also read:org access.
 
 Continue with the steps below if you have time now.  Otherwise we will do them together in the first tutorial.
 
@@ -43,7 +43,7 @@ Open a Terminal window in VS Code and run your code again; usually:
 python [your_name.py]
 ```
 
-Authenticate with GitHub using the terminal and your personal access token
+Authenticate with GitHub using the terminal and your personal access token:
 ```
 gh auth login
 ```
@@ -51,7 +51,7 @@ When prompted select GitHub.com (press Enter), https and the option to paste you
 
 The following could be "eventful" with 40+ people making changes at the same time.
 
-You will find the GitHub Copilot assistant in VS Code helpful if you get stuck; it's available in the Chat screen. Tell it what you want to do in natural language and it will help, e.g. "Push/commit my code to this public repo: https://github.com/CHEN30010/Team_99_test".
+You will find the GitHub Copilot assistant in VS Code helpful if you get stuck; it's available in the Chat screen. Tell it what you want to do in natural language and it will help, e.g. "Push/commit my code to this public repo: https://github.com/CHEN30010/Getting_Started".
 
 All going well, Copilot will run something like these commands (if using Copilot, you do not need to run all of these yourself right now):
 
@@ -59,11 +59,11 @@ All going well, Copilot will run something like these commands (if using Copilot
 ```
 	1. git status — Check repository status
 	2. git init — Initialize a new git repository
-	3. git remote add origin https://github.com/CHEN30010/Team_99_test.git — Add remote repository
+	3. git remote add origin https://github.com/CHEN30010/Getting_Started.git — Add remote repository
 	4. git add [your filename] — Stage the file for commit
 	5. git commit -m "Your comment" — Commit with message
 	6. git push -u origin main — Push to remote
-	7. git remote set-url origin https://github.com/CHEN30010/Team_99_test.git — Ensure HTTPS remote URL is set
+	7. git remote set-url origin https://github.com/CHEN30010/Getting_Started.git — Ensure HTTPS remote URL is set
 	8. git pull origin main — Pull remote changes
 	9. git config pull.rebase false — Configure merge strategy to use merge
 	10. git pull --allow-unrelated-histories origin main — Pull and merge unrelated histories
@@ -75,7 +75,7 @@ Make some changes locally in your code (e.g. add or edit a comment) and push aga
 git push origin main
 ```
 
-Make a branch and then make another change; (use the assistant, rather than typing the commands)
+Make a branch and then make another change (use the assistant, rather than typing the commands)
 ```
 git switch -c [your branch name] && git status --short --branch
 ```
