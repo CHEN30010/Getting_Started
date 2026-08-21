@@ -4,7 +4,7 @@
 
 You are going to solve a challenging and important reaction engineering problem to a high standard based on simulations programmed by your team. The following get started guidelines will help you to make progress quickly.
 
-**Before the first tutorial**
+**Part 1: Complete this before the first tutorial**
 
 Come to the first tutorial with your computer and all of this section completed.
 
@@ -26,17 +26,22 @@ Optional, helpful: Read/ scan these intros to Git:
 
 - [Branches and merging your work](https://webtuu.com/blog/04/git-basics-branching-merging-push-to-github)
 
-[Generate a personal access token](https://github.com/settings/apps). It's an alternative to a password and will help a lot when pushing and pulling code between local and remote.
+[Generate a GitHub personal access token](https://github.com/settings/apps). It's an alternative to a password and will help a lot when pushing and pulling code between local and remote.
 
 - give it full "repo" access and also read:org access.
 
-**In the first tutorial**
+Continue with the steps below if you have time now.  Otherwise we will do them together in the first tutorial.
 
-Sign into VS Code using your GitHub account
+**Part 2: In the first tutorial**
 
-Generate some code using a Google search; paste it into VS Code. Save under your name [your_name.py] and Run.
+Sign into VS Code using your GitHub account; if you have more than one GitHub account, make sure to use your UCD account for this project.
 
-Open a Terminal window in VS Code and run again.
+Generate some python code, e.g. using a Google search; paste it into VS Code. Save it under your name [your_name.py] and Run.
+
+Open a Terminal window in VS Code and run your code again; usually:
+```
+python [your_name.py]
+```
 
 Authenticate with GitHub using the terminal and your personal access token
 ```
@@ -46,9 +51,9 @@ When prompted select GitHub.com (press Enter), https and the option to paste you
 
 The following could be "eventful" with 40+ people making changes at the same time.
 
-You will find the GitHub Copilot assistant in VS Code helpful if you get stuck; it's available in the Chat screen. Tell it what you want to do and it will help, e.g. "Push/commit my code to this public repo: https://github.com/CHEN30010/Team_99_test".
+You will find the GitHub Copilot assistant in VS Code helpful if you get stuck; it's available in the Chat screen. Tell it what you want to do in natural language and it will help, e.g. "Push/commit my code to this public repo: https://github.com/CHEN30010/Team_99_test".
 
-All going well, Copilot will run something like these commands:
+All going well, Copilot will run something like these commands (if using Copilot, you do not need to run all of these yourself right now):
 
 - The key steps are: initializing the repo → staging and committing → authenticating → pulling remote changes → resolving divergent branches → successfully pushing
 ```
@@ -65,17 +70,17 @@ All going well, Copilot will run something like these commands:
 	11. git push origin main — Final push to remote
 ```
 
-Make some changes locally in your code (e.g. add or edit a comment) and push again (use the assistant)
+Make some changes locally in your code (e.g. add or edit a comment) and push again (use the assistant, rather than typing the commands)
 ```
 git push origin main
 ```
 
-Make a branch and then make another change; use the assistant
+Make a branch and then make another change; (use the assistant, rather than typing the commands)
 ```
 git switch -c [your branch name] && git status --short --branch
 ```
 
-Make a pull request to incorporate the change in your branch (use the assistant)
+Make a pull request to incorporate the change in your branch (use the assistant, rather than typing the commands)
 ```
 gh pr create --base main --head [your branch name] --title "Your description of change" --body "More info about the change"
 ```
