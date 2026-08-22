@@ -16,7 +16,7 @@ Install [VS Code](https://code.visualstudio.com/download?_exp_download=fb315fc98
 
 Sign-up for a [GitHub account](https://github.com/signup?ref_product=github&ref_type=engagement&ref_style=text). It's free and will help your team to collaborate. Use your UCD email address. Verify your email address when prompted.
 
-Install [git](https://github.com/git-guides/install-git). This enables source control / audit trail for your project and syncs with GitHub. Audit trial helps to log who did what and when, a feature that is useful for many reasons including for compliance purposes, e.g. in a GMP context.
+Install [git](https://github.com/git-guides/install-git). This enables source control and audit trail for your project and syncs with GitHub. Source control makes it possible for you to track changes and revert if needed. Audit trial helps to log who did what and when, a feature that is useful for many reasons including for compliance purposes, e.g. in a GMP context.
 
 Optional, helpful: Read/ scan these intros to Git:
 
