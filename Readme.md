@@ -1,7 +1,5 @@
 # Getting started
 
-<img width="1408" height="768" alt="Gemini_Generated_Image_oisk3poisk3poisk" src="https://github.com/user-attachments/assets/04166a7f-2aad-4350-9c54-ba46fc8aa802" />
-
 <img width="1408" height="768" alt="Gemini_Generated_Image_psqo7vpsqo7vpsqo" src="https://github.com/user-attachments/assets/e89be895-d09e-4369-b1cc-d46cbcd519b6" />
 
 You are going to solve a challenging and important reaction engineering problem to a high standard based on simulations programmed by your team. The following get started guidelines will help you to make progress quickly.
