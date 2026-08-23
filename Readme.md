@@ -8,11 +8,11 @@ You are going to solve a challenging and important reaction engineering problem 
 
 Come to the first tutorial with your computer and all of this section completed.
 
-Install [python](https://www.python.org/downloads/)
+Install [python](https://www.python.org/downloads/).
 
 - add Python to your PATH and make sure pip is included. pip helps to install additional packages easily later.
 
-Install [VS Code](https://code.visualstudio.com/download?_exp_download=fb315fc982)
+Install [VS Code](https://code.visualstudio.com/download?_exp_download=fb315fc982).
 
 Sign-up for a [GitHub account](https://github.com/signup?ref_product=github&ref_type=engagement&ref_style=text). It's free and will help your team to collaborate. Use your UCD email address. Verify your email address when prompted.
 
