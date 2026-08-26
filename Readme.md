@@ -91,7 +91,7 @@ gh pr create --base main --head [your branch name] --title "Your description of 
 This part requires your approval and you do manually:
 - Merge the change in your browser on GitHub.com (on the Pull requests tab of the repo)
 
-Make sure you can also access your Team repository; that is where you will be saving, sharing and submitting your team code.
+Make sure you can also access your Team repository; that is where you will be saving, sharing and submitting your team code. Your project brief is waiting for you in your Team repo.
 
 If you run into problems with the above, check with your fellow team members what has worked for them. If you still have problems after that, let Joe know.
 
