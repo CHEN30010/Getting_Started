@@ -1,6 +1,6 @@
 # Getting started
 
-<img width="612" height="334" alt="Picture 1" src="https://github.com/user-attachments/assets/e1f2bdb1-4aac-41bd-9f94-c91190695ede" />
+<img width="612" height="334" alt="image" src="https://github.com/user-attachments/assets/8eb695f1-a707-4890-ac80-6a6b1cf723f0" />
 
 You are going to solve a challenging and important reaction engineering problem to a high standard based on simulations programmed by your team. The following get started guidelines will help you to make progress quickly.
 
