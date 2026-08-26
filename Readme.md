@@ -3,7 +3,7 @@
 <img width="612" height="334" alt="image" src="https://github.com/user-attachments/assets/8eb695f1-a707-4890-ac80-6a6b1cf723f0" />
 </p>
 
-You are going to solve a challenging and important reaction engineering problem to a high standard based on simulations programmed by your team. The following get started guidelines will help you to make progress quickly.
+You are going to solve a challenging and important reaction engineering problem to a high standard based on simulations programmed by your team. You will use frontier AI assistants - free tier only - to accelerate your work. The following get started guidelines will help you to make progress quickly.
 
 **Part 1: Complete this before the first tutorial**
 
