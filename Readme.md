@@ -9,15 +9,21 @@ You are going to solve a challenging and important reaction engineering problem 
 
 Come to the first tutorial with your computer and all of this section completed.
 
-Install [python](https://www.python.org/downloads/).
+Install [python](https://www.python.org/downloads/)
 
 - add Python to your PATH and make sure pip is included. pip helps to install additional packages easily later.
 
-Install [VS Code](https://code.visualstudio.com/download?_exp_download=fb315fc982).
+Install [VS Code](https://code.visualstudio.com/download?_exp_download=fb315fc982)
 
-Sign-up for a [GitHub account](https://github.com/signup?ref_product=github&ref_type=engagement&ref_style=text). It's free and will help your team to collaborate. Use your UCD email address. Verify your email address when prompted.
+- this is where you will write your code.
 
-Install [git](https://github.com/git-guides/install-git). This enables source control and audit trail for your project and syncs with GitHub. Source control makes it possible for you to track changes and revert if needed. Audit trial helps to log who did what and when, a feature that is useful for many reasons including for compliance purposes, e.g. in a GMP context.
+Sign-up for a [GitHub account](https://github.com/signup?ref_product=github&ref_type=engagement&ref_style=text). It's free and will help your team to collaborate
+- Use your UCD email address
+- Verify your email address when prompted.
+
+Install [git](https://github.com/git-guides/install-git). This enables source control and audit trail for your project and syncs with GitHub
+- Source control makes it possible for you to track changes and revert if needed.
+- Audit trial helps to log who did what and when, a feature that is useful for many reasons including for compliance purposes, e.g. in a GMP context.
 
 Install the [GitHub command line interface](https://cli.github.com).
 
@@ -27,7 +33,7 @@ Optional, helpful: Read/ scan these intros to Git:
 
 - [Git and GitHub](https://webtuu.com/blog/04/difference-between-git-and-github)
 
-- [Branches and merging your work](https://webtuu.com/blog/04/git-basics-branching-merging-push-to-github)
+- [Branches and merging your work](https://webtuu.com/blog/04/git-basics-branching-merging-push-to-github).
 
 [Generate a GitHub personal access token](https://github.com/settings/apps). It's an alternative to a password and will help a lot when pushing and pulling code between local and remote
 
@@ -54,7 +60,10 @@ When prompted select GitHub.com (press Enter), https and the option to paste you
 
 The following could be "eventful" with 40+ people making changes at the same time.
 
-You will find the GitHub Copilot assistant in VS Code helpful if you get stuck; it's available in the Chat screen. Tell it what you want to do in natural language and it will help, e.g. "Push/commit my code to this public repo: https://github.com/CHEN30010/Getting_Started".
+You will find the GitHub Copilot assistant in VS Code helpful if you get stuck; it's available in the Chat screen
+- Tell it what you want to do in natural language and it will help, e.g. "Push/commit my code to this public repo: https://github.com/CHEN30010/Getting_Started"
+- Review the steps it proposes to take and approve/ redirect/ stop as needed
+- Learn the commands and techniques that it uses, so that you can also do those things without an assistant.
 
 All going well, Copilot will run something like these commands (if using Copilot, you do not need to run all of these yourself right now):
 
@@ -91,7 +100,7 @@ gh pr create --base main --head [your branch name] --title "Your description of 
 This part requires your approval and you do manually:
 - Merge the change in your browser on GitHub.com (on the Pull requests tab of the repo)
 
-Make sure you can also access your Team repository; that is where you will be saving, sharing and submitting your team code. Your project brief is waiting for you in your Team repo.
+Make sure you can also access your private Team repository; that is where you will be saving, sharing and submitting your team code. Your project brief is waiting for you in your Team repo.
 
 If you run into problems with the above, check with your fellow team members what has worked for them. If you still have problems after that, let Joe know.
 
