@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # Example 1: Simple unimolecular reaction A → B
 # Rate equation: dA/dt = -k*A, dB/dt = k*A
-# added a comment for testing purposes
+# added a comment for testing purposes; here is another, in my branch.
 
 def reaction_simple(y, t, k):
     """
