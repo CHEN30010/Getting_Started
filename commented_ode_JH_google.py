@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 # added this comment on my Windows machine as joehannon
 # a new comment synced without using the AI assistant
 
+
 def reaction_simple(y, t, k):
     """
     Simple first-order reaction: A → B
