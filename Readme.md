@@ -23,7 +23,8 @@ Sign-up for a [GitHub account](https://github.com/signup?ref_product=github&ref_
 
 Install [git](https://github.com/git-guides/install-git). This enables source control and audit trail for your project and syncs with GitHub
 - Source control makes it possible for you to track changes and revert if needed
-- Audit trial helps to log who did what and when, a feature that is useful for many reasons including for compliance purposes, e.g. in a GMP context.
+- Audit trial helps to log who did what and when, a feature that is useful for many reasons including for compliance purposes, e.g. in a GMP context
+- See [this note](Git setup windows.pdf) if you run into problems .
 
 Install the [GitHub command line interface](https://cli.github.com).
 
