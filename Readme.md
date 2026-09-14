@@ -7,7 +7,7 @@ You are going to solve a challenging and important reaction engineering problem 
 
 **Part 1: Complete this before the first tutorial**
 
-Come to the first tutorial **__with your computer__** and all of this section completed.
+Come to the first tutorial <u>**with your computer**</u> and all of this section completed.
 
 Install [python](https://www.python.org/downloads/)
 
