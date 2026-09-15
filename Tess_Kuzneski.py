@@ -12,5 +12,4 @@ k = 0.3
 
 y = odeint(model, y0, t, args=(k,))
 
-print(y[:5])
-# test edit
+print("First five concentration values:", y[:5])
