@@ -47,7 +47,7 @@ Continue with the steps below if you have time now.  Otherwise we will do them t
 Sign into VS Code using your GitHub account; if you have more than one GitHub account, make sure to use your UCD account for this project.
 
 Generate some python code, e.g. using a Google search; paste it into VS Code. Save the file under your name [your_name.py] and Run
-- for the basics of Python, see [here](https://www.w3schools.com/python/).
+- for the basics of writing Python, see [here](https://www.w3schools.com/python/).
 
 Open a Terminal window in VS Code and run your code again; usually:
 ```
