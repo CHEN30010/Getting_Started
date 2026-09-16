@@ -61,7 +61,7 @@ if __name__ == "__main__":
     times, states = solve_ode(
         lambda _time, state: [-state[0]],
         t_span=(0.0, 1.0),
-        initial_state=[1.0],
+        initial_state=[10.0],
         step_size=0.1,
     )
     print(f"y(0) = {states[0][0]:.4f}")
