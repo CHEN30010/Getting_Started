@@ -2,4 +2,4 @@ name = input("What is your name? ")
 print("Hello", name)
 print("My first CHEN30010 Python program works!")
 print("I'm Doing it")
-u
+Print("It's a me Mario")
