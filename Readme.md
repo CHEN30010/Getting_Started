@@ -68,7 +68,7 @@ You will find the GitHub Copilot assistant in VS Code helpful if you get stuck; 
 - Review the steps it proposes to take and approve/ redirect/ stop as needed
 - Learn the commands and techniques that it uses, so that you can also do those things without an assistant.
 
-All going well, Copilot will run something like these commands (if using Copilot, you do not need to run all of these yourself right now):
+All going well, GitHub Copilot will run something like these commands (if using GitHub Copilot, you do not need to type and run all of these yourself right now):
 
 - The key steps are: initializing the repo → staging and committing → authenticating → pulling remote changes → resolving divergent branches → successfully pushing
 ```
@@ -100,12 +100,14 @@ Make a pull request to incorporate the change in your branch (use the assistant,
 gh pr create --base main --head [your branch name] --title "Your description of change" --body "More info about the change"
 ```
 
-This part requires your approval and you do manually:
+This part requires your approval and you do manually; normally with a colleague from your team who checks that the request should be accepted:
 - Merge the change in your browser on GitHub.com (on the Pull requests tab of the repo)
 
 Make sure you can also access your private Team repository; that is where you will be saving, sharing and submitting your team code. Your project brief is waiting for you in your Team repo.
 
-If you run into problems with the above, check with your fellow team members what has worked for them. If you still have problems after that, let Joe know.
+If you run into problems with the above, check with your fellow team members what has worked for them. If you still have problems after that, let Joe know. 
+
+Note that many (all?) of the Git terminal / command line operations shown above can also be done using the Source Control section of the tree on the left side of VS Code).
 
 You can increase your GitHub Copilot limits by verifying your student status
-[here](https://github.com/settings/education/benefits). In general, you will find it more productive to use Copilot within VS Code, rather than e.g. Google AI in the browser. If/when you exceed your Copilot limits, you can fall back on using Google AI in the browser until your limits reset.
+[here](https://github.com/settings/education/benefits). In general, you will find it more productive to use Copilot within VS Code, rather than e.g. Google AI in the browser. If/when you exceed your Copilot limits, you can fall back on using Google AI in the browser until your limits reset (usually monthly).
