@@ -2,9 +2,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.integrate import solve_ivp
 
-# Define the ODE: dy/dt = -0.1 * y
+# Define the ODE: dy/dt = -0.2 * y
 def model(t, y):
-    return -0.1 * y
+    return -0.2 * y
 
 # Initial conditions and time span
 y0 = [2.0]             # Initial value of y at t = 0
