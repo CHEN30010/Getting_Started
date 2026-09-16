@@ -49,10 +49,11 @@ Sign into VS Code using your GitHub account; if you have more than one GitHub ac
 Generate some python code, e.g. using a Google search for “solve ode using python”; paste it into VS Code. Save the file under your name [your_name.py] and Run
 - for the basics of writing Python, see [here](https://www.w3schools.com/python/).
 
-Open a Terminal window in VS Code and run your code again; usually:
+Open a Terminal window in VS Code (menu>New Terminal) and run your code again; usually:
 ```
 python [your_name.py]
 ```
+- a summary of useful Terminal commands is [here](Commands.pdf)
 
 Authenticate with GitHub using the terminal and your personal access token:
 ```
