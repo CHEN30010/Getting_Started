@@ -53,7 +53,7 @@ Open a Terminal window in VS Code (menu>New Terminal) and run your code again; u
 ```
 python [your_name.py]
 ```
-- a summary of useful Terminal commands is [here](Commands.pdf)
+- a summary of useful Terminal commands is [here](Commands.pdf).
 
 Authenticate with GitHub using the terminal and your personal access token:
 ```
