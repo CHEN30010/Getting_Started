@@ -7,7 +7,7 @@ def model(t, y):
     return -0.2 * y
 
 def feature(t,y):
-    return y**2 + np.sin(t)
+    return y**3 + np.sin(t)
 
 # Initial conditions and time span
 y0 = [2.0]             # Initial value of y at t = 0
