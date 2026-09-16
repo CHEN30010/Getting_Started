@@ -6,6 +6,9 @@ from scipy.integrate import solve_ivp
 def model(t, y):
     return -0.2 * y
 
+def feature(t,y):
+    return y**2 + np.sin(t)
+
 # Initial conditions and time span
 y0 = [2.0]             # Initial value of y at t = 0
 t_span = (0, 10)       # Start and end time
