@@ -2,7 +2,10 @@ from turtle import *
 import turtle as t
 screen = t.Screen()
 t.speed("fastest")
-for i in range(45):
+t.pensize(5)
+t.pencolor("blue")
+t.fillcolor("red")
+for i in range(80):
     t.fd(170 + (5*i))
     t.left(110)
 t.fd(100)
