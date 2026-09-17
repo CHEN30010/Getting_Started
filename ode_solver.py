@@ -4,6 +4,9 @@ This example solves the ODE
     y' = -2y
 with initial condition y(0) = 1.
 The exact solution is y(t) = exp(-2t).
+
+Joe's comment on branch
+
 """
 
 from __future__ import annotations
