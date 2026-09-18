@@ -110,7 +110,7 @@ If you run into problems with the above, check with your fellow team members wha
 Note that many (all?) of the Git terminal / command line operations shown above can also be done using the Source Control section of the tree on the left side of VS Code).
 
 Maybe not crucial, but for info, I have the following "extensions" installed in VS Code, all are free and some may be helpful for you:
-<img width="361" height="469" alt="VS Code_extensions_python" src="https://github.com/user-attachments/assets/98d97fe8-fddd-41d6-b91c-4b3977a49be4" />
+<img width="349" height="294" alt="VS Code_extensions_python" src="https://github.com/user-attachments/assets/65c42ad1-c72c-44de-aaf8-64da6ecb9b76" />
 
 You can increase your GitHub Copilot limits by verifying your student status
 [here](https://github.com/settings/education/benefits). In general, you will find it more productive to use Copilot within VS Code, rather than e.g. Google AI in the browser. If/when you exceed your Copilot limits, you can fall back on using Google AI in the browser until your limits reset (usually monthly).
