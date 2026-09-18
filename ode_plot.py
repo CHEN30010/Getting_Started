@@ -1,4 +1,5 @@
 """Integrate and plot a simple damped harmonic oscillator."""
+"""Joe's docstring on branch feature-11"""
 
 import matplotlib.pyplot as plt
 import numpy as np
